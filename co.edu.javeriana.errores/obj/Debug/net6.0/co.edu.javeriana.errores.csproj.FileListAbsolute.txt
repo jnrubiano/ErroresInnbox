@@ -1,0 +1,5 @@
+C:\Users\juan-\source\repos\co.edu.javeriana.errores\co.edu.javeriana.errores\obj\Debug\net6.0\co.edu.javeriana.errores.csproj.AssemblyReference.cache
+C:\Users\juan-\source\repos\co.edu.javeriana.errores\co.edu.javeriana.errores\obj\Debug\net6.0\co.edu.javeriana.errores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juan-\source\repos\co.edu.javeriana.errores\co.edu.javeriana.errores\obj\Debug\net6.0\co.edu.javeriana.errores.AssemblyInfoInputs.cache
+C:\Users\juan-\source\repos\co.edu.javeriana.errores\co.edu.javeriana.errores\obj\Debug\net6.0\co.edu.javeriana.errores.AssemblyInfo.cs
+C:\Users\juan-\source\repos\co.edu.javeriana.errores\co.edu.javeriana.errores\obj\Debug\net6.0\co.edu.javeriana.errores.csproj.CoreCompileInputs.cache

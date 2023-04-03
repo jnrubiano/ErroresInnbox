@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>co.edu.javeriana.errores</id>
+    <version>1.0.3</version>
+    <title>ErroresIInnbox</title>
+    <authors>co.edu.javeriana.errores</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="bootstrap" version="3.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\juan-\source\repos\co.edu.javeriana.errores\co.edu.javeriana.errores\bin\Release\net6.0\co.edu.javeriana.errores.dll" target="lib\net6.0\co.edu.javeriana.errores.dll" />
+  </files>
+</package>

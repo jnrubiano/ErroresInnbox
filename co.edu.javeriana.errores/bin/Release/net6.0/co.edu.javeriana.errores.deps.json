@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "co.edu.javeriana.errores/1.0.5": {
+        "dependencies": {
+          "NuGet.CommandLine": "6.4.0",
+          "bootstrap": "3.0.0"
+        },
+        "runtime": {
+          "co.edu.javeriana.errores.dll": {}
+        }
+      },
+      "bootstrap/3.0.0": {
+        "dependencies": {
+          "jQuery": "1.9.0"
+        }
+      },
+      "jQuery/1.9.0": {},
+      "NuGet.CommandLine/6.4.0": {}
+    }
+  },
+  "libraries": {
+    "co.edu.javeriana.errores/1.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bootstrap/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d1JUd1ZjfbhGGTxjBSjCLIV+O//hZDcvI0hnaeTL3VHAD+6Z89vgPwV0K/nmPM4hZKq172iPV55lCSpohT6WmA==",
+      "path": "bootstrap/3.0.0",
+      "hashPath": "bootstrap.3.0.0.nupkg.sha512"
+    },
+    "jQuery/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bS6OGSd/QL39vKKhATpeehgZDCzV6foRJ52EocEGAB29VetwXkQHN6KQIBlBbW9VJzuHr+rQxHYZ13MnPGQ/vw==",
+      "path": "jquery/1.9.0",
+      "hashPath": "jquery.1.9.0.nupkg.sha512"
+    },
+    "NuGet.CommandLine/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bQj+MyfitxRe4yDoyVa9YB+mQsFi2pYBrvvfTzLVNQCUOOKw9WN50odv1BqjDLhgMXDa1RWcQAsmeMDY9Xg3BQ==",
+      "path": "nuget.commandline/6.4.0",
+      "hashPath": "nuget.commandline.6.4.0.nupkg.sha512"
+    }
+  }
+}

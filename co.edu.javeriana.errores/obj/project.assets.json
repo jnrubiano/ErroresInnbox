@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "bootstrap/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "jquery": "1.9.0"
+        }
+      },
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
+      "NuGet.CommandLine/6.4.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "bootstrap/3.0.0": {
+      "sha512": "d1JUd1ZjfbhGGTxjBSjCLIV+O//hZDcvI0hnaeTL3VHAD+6Z89vgPwV0K/nmPM4hZKq172iPV55lCSpohT6WmA==",
+      "type": "package",
+      "path": "bootstrap/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/bootstrap-theme.css",
+        "Content/Content/bootstrap-theme.min.css",
+        "Content/Content/bootstrap.css",
+        "Content/Content/bootstrap.min.css",
+        "Content/Scripts/bootstrap.js",
+        "Content/Scripts/bootstrap.min.js",
+        "Content/fonts/glyphicons-halflings-regular.eot",
+        "Content/fonts/glyphicons-halflings-regular.svg",
+        "Content/fonts/glyphicons-halflings-regular.ttf",
+        "Content/fonts/glyphicons-halflings-regular.woff",
+        "bootstrap.3.0.0.nupkg.sha512",
+        "bootstrap.nuspec"
+      ]
+    },
+    "jQuery/1.9.0": {
+      "sha512": "bS6OGSd/QL39vKKhATpeehgZDCzV6foRJ52EocEGAB29VetwXkQHN6KQIBlBbW9VJzuHr+rQxHYZ13MnPGQ/vw==",
+      "type": "package",
+      "path": "jquery/1.9.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.9.0-vsdoc.js",
+        "Content/Scripts/jquery-1.9.0.js",
+        "Content/Scripts/jquery-1.9.0.min.js",
+        "Content/Scripts/jquery-1.9.0.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-1.9.0.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.9.0.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "NuGet.CommandLine/6.4.0": {
+      "sha512": "bQj+MyfitxRe4yDoyVa9YB+mQsFi2pYBrvvfTzLVNQCUOOKw9WN50odv1BqjDLhgMXDa1RWcQAsmeMDY9Xg3BQ==",
+      "type": "package",
+      "path": "nuget.commandline/6.4.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "nuget.commandline.6.4.0.nupkg.sha512",
+        "nuget.commandline.nuspec",
+        "tools/NuGet.exe",
+        "tools/NuGet.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "NuGet.CommandLine >= 6.4.0",
+      "bootstrap >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\juan-\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.5",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\juan-\\source\\repos\\co.edu.javeriana.errores\\co.edu.javeriana.errores\\co.edu.javeriana.errores.csproj",
+      "projectName": "co.edu.javeriana.errores",
+      "projectPath": "C:\\Users\\juan-\\source\\repos\\co.edu.javeriana.errores\\co.edu.javeriana.errores\\co.edu.javeriana.errores.csproj",
+      "packagesPath": "C:\\Users\\juan-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juan-\\source\\repos\\co.edu.javeriana.errores\\co.edu.javeriana.errores\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\juan-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "NuGet.CommandLine": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+          "bootstrap": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
