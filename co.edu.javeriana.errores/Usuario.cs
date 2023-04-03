@@ -5,10 +5,15 @@
     {
         public enum TipoError
         {
-            UsuarioNoEncontrado = 1,
-            ErrorNoIdentificado = 2,
-            NoInsertar = 3,
-            ErrorConexion = 4
+            NoCrearServicio = 1,
+            NoActualizadoServicio = 2,
+            NoAsignarServicio = 3,
+            GeneroExcepcion = 4,
+            OK = 5,
+            ServicioCreado = 6,
+            ServicioAceptado = 7,
+            ServicioRechazado = 8,
+            ServicioCancelado = 9
         }
         public Error RecuperarError(TipoError tipo)
         {

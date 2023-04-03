@@ -4,7 +4,7 @@
 3. Ingresar al explorador de windows en la carpeta donde se empaqueto el nuget.
 4. Descargar nuget.exe y ponerlo en la carpeta.
 5. Ejecutar en el cmd el siguiente comando:
-.\nuget push co.edu.javeriana.errores.1.0.0.nupkg oy2g25evqleqseutrftqk47aof4erqne3cqav3txtfjdca -Source https://api.nuget.org/v3/index.json
+.\nuget push co.edu.javeriana.errores.1.0.0.nupkg API_KEY -Source https://api.nuget.org/v3/index.json
 
 
 ------ PARA IMPORTAR EL NUGET ------

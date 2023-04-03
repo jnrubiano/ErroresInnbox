@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cEOX6VI0T0fUBcwps97TJTxWBtCyjUTWqH7lkckBilnVaSspQA3o3yVtK786UilX6ZJ/zKE1c4wxgcAZcNXqeg==",
+  "dgSpecHash": "iP05hSZTk7ueLUOirJPQ1hRAsan0kY62wyqdalBAiF14GB8aGf48hNlcNu5CHRUjzuD3FMD3rTNI37z9a2gyzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juan-\\source\\repos\\co.edu.javeriana.errores\\co.edu.javeriana.errores\\co.edu.javeriana.errores.csproj",
+  "projectFilePath": "C:\\Users\\juan-\\OneDrive\\Documentos\\AESPUJ\\2023-1\\PICA\\ErroresInnbox\\co.edu.javeriana.errores\\co.edu.javeriana.errores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juan-\\.nuget\\packages\\bootstrap\\3.0.0\\bootstrap.3.0.0.nupkg.sha512",
     "C:\\Users\\juan-\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
